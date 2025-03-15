@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* This will place space between the two boxes */
+  align-items: flex-start; /* Align items to the top */
+  padding: 20px;
+}
+
+.todo-box {
+  width: 48%; /* Each box takes up roughly half of the container width */
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Optional: Add some styling to make the boxes look better */
+.todo-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
